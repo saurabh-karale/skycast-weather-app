@@ -1,0 +1,75 @@
+.InfoBox {
+  text-align: center;
+  padding: 10px;
+}
+
+.classContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.classContainer .MuiCard-root {
+  width: 100%;
+  max-width: 380px;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.classContainer .MuiCard-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3);
+}
+
+.classContainer .MuiCardMedia-root {
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.classContainer .MuiCardContent-root {
+  padding: 24px;
+}
+
+.classContainer .MuiTypography-h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.classContainer .MuiTypography-body2 p {
+  margin: 12px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  color: #334155;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.classContainer .MuiTypography-body2 b {
+  color: #0369a1;
+}
+
+.classContainer .MuiSvgIcon-root {
+  font-size: 30px;
+  color: #0284c7;
+}
+
+@media (max-width: 480px) {
+  .classContainer .MuiCardContent-root {
+    padding: 16px;
+  }
+
+  .classContainer .MuiCardMedia-root {
+    height: 180px;
+  }
+}
