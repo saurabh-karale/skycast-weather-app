@@ -1,16 +1,29 @@
-# React + Vite
+🌤️ SkyCast Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive weather application built using React.js that displays weather information for any searched city.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+View Live Project :-  https://shiny-souffle-a27c5b.netlify.app/
 
-## React Compiler
+✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Search weather by city name
+- Display current temperature
+- Show minimum and maximum temperature
+- Display humidity and feels-like temperature
+- Dynamic weather images and icons
 
-## Expanding the Oxlint configuration
+🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js
+- JavaScript
+- Material UI
+- CSS
+- OpenWeatherMap API
+- Netlify (Deployment)
+
+#📌 About
+
+This project fetches weather data from the OpenWeatherMap API and displays it using React components and Material UI. It is deployed on Netlify and accessible through the live demo link above.
+
